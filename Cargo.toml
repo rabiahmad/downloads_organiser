@@ -1,0 +1,9 @@
+[package]
+name = "downloads_organiser"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+notify = { version = "8.2.0", features = ["serde"] }
+tracing = "0.1.43"
+tracing-subscriber = "0.3.22"
